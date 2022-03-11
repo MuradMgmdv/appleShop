@@ -16,13 +16,13 @@ function Home() {
             <img src="/assets/iphone13.png" className="d-block w-100" alt="Iphone" height="800px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/ilon.jpg" className="d-block w-100" alt="Iphone" height="800px"/>
+            <img src="/assets/ilon.png" className="d-block w-100" alt="Iphone" height="800px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/iphone.jpg" className="d-block w-100" alt="Iphone" height="800px"/>
+            <img src="/assets/iphone.png" className="d-block w-100" alt="Iphone" height="800px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/tel.jpg" className="d-block w-100" alt="Iphone" height="800px"/>
+            <img src="/assets/tel.png" className="d-block w-100" alt="Iphone" height="800px"/>
           </div>
           
         </div>
