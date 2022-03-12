@@ -1,24 +1,27 @@
 import React from 'react'
 import { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { DATA } from '../Data'
-// console.log(DATA);
+import { addItem, delItem } from '../redux/actions'
 
-// 
+
+
 function ProductDetali() {
   const [carBtn, setCarBtn] = useState('Add to Cart')
 
   const proid = useParams()
-  // console.log(proid);
   const proDetail = DATA.filter(x => x.id == proid.id)
-  // console.log(proDetail);
   const product = proDetail[0]
-  // console.log(product);
+
+  const dispatch = useDispatch()
 
   const handleCart = (product) => {
     if(carBtn === 'Add to Cart') {
+      dispatch(addItem(product))
       setCarBtn('Remove from Cart')
     } else {
+      dispatch(delItem(product))
       setCarBtn('Add to Cart')
     }
   }

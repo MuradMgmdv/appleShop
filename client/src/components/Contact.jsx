@@ -23,11 +23,11 @@ function Contact() {
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                <input type="email" className="form-control" id="exampleForm" placeholder="name@example.com"/>
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <textarea className="form-control" id="exampleForm" rows="5"></textarea>
               </div>
               <button type="submit" className="btn btn-outline-primary">Send Message</button>
             </form>

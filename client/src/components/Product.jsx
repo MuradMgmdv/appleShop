@@ -22,7 +22,7 @@ function Product() {
 
   return (
     <div>
-      <div className="container py-5 ">
+      <div className="container  py-5 ">
         <div className="row justify-content-around">
           <div className="col-12 text-center">
             <h1>Product</h1>

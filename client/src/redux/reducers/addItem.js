@@ -7,13 +7,10 @@ const addItems = (state = addItem, action) => {
       break;
 
 
-     switch (action.type) {
         case "DELITEM":
           return state = state.filter((x) => x.id !== action.payload.id)
-      }
       break;
-
-
+      
 
     default: return state
       break;
